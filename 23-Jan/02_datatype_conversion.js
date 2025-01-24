@@ -23,3 +23,13 @@ console.log(typeof undeVal);
 console.log(undeVal);
 console.log(typeof numUndeVal);
 console.log(numUndeVal);
+
+// boolean
+let boolVal = true
+let numBoolVal = Number(boolVal)
+console.log(typeof boolVal);
+console.log(boolVal);
+console.log(typeof numBoolVal);
+console.log(numBoolVal);
+
+
