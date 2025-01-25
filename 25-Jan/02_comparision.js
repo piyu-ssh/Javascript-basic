@@ -14,3 +14,12 @@ console.log("02" == 2)
 console.log("22" === 22);
 // Output: false
 
+// comparision operators for null and undefined
+
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0); // Output: true
+
+console.log(undefined > 0);
+console.log(undefined == 0);
+console.log(undefined >= 0); // Output: false
