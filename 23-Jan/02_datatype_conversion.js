@@ -16,7 +16,6 @@ console.log(strName);
 console.log(typeof conStrName);
 console.log(conStrName);
 
-
 // null
 let nullNum = null
 let numNullVal = Number(nullNum)
