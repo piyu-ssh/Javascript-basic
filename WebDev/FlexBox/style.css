@@ -1,0 +1,29 @@
+
+#box1{
+    background-color: rgb(135, 173, 222);
+}
+#box2{
+    background-color: rgb(116, 207, 93);
+}
+#box3{
+    background-color: rgb(123, 113, 176);
+}
+#box4{
+    background-color: rgb(222, 135, 160);
+}
+#box5{
+    background-color: rgb(222, 135, 135);
+}
+
+.flex-items{
+    color: black;
+    border: 2px solid black;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    font-size: 2em;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
