@@ -10,13 +10,20 @@ console.log(newDate.toLocaleDateString());
 // const myCreatedDate = new Date (2020, 0, 1);
 // console.log(myCreatedDate.toDateString());
 // ye custom date print kar dega!
-let myCreatedDate = new Date ("12-01-2025");
+// let myCreatedDate = new Date ("12-01-2025");
+currMonth = 4
+let year = 2004
+let month = currMonth - 1;
+let day = 17;
+let myCreatedDate = new Date (year, month, day);
 console.log(myCreatedDate.toLocaleString());
+console.log(myCreatedDate.toDateString());
 
-// Date
+// TimeStamp
 
-let currTime = Date.now();
-console.log(currTime);
+let myTimeStamp = Date.now();
+console.log(myTimeStamp);
+// ye current date milliseconds me generate karta ha!
 
-// ! ye or sikhenge isko project me implement karna parega!!!
-
+console.log(Date.now());
+//get.time se created date ki time (seconds) me nikal aati ha, (basically comparision me kaam aata ha)
