@@ -1,1 +1,4 @@
 alt + F4 -> Close your application!!!
+
+This way is more clear!
+you just have to hit Alt + F4!
