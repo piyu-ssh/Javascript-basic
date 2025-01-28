@@ -1,29 +1,153 @@
-
-#box1{
-    background-color: rgb(135, 173, 222);
-}
-#box2{
-    background-color: rgb(116, 207, 93);
-}
-#box3{
-    background-color: rgb(123, 113, 176);
-}
-#box4{
-    background-color: rgb(222, 135, 160);
-}
-#box5{
-    background-color: rgb(222, 135, 135);
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.flex-items{
-    color: black;
-    border: 2px solid black;
-    height: 75px;
-    width: 75px;
-    text-align: center;
-    font-size: 2em;
-}
-.flex-container{
+#flex-box{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+.flex-container {
+  display: flex;
+  height: 90vh;
+  width: 90vw;
+  flex-direction: row;
+  /* border: 2px solid; */
+  /* border-color: black; */
+  background-color: rgb(39, 44, 31);
+}
+
+.flex-items {
+  color: black;
+  border: 2px solid black;
+  height: 205px;
+  width: 590px;
+  text-align: center;
+  font-size: 2em;
+}
+
+#box1 {
+  background-color: rgb(135, 173, 222);
+}
+#box2 {
+  background-color: rgb(116, 207, 93);
+}
+#box3 {
+  background-color: rgb(123, 113, 176);
+}
+#box4 {
+  background-color: rgb(222, 135, 160);
+}
+#box5 {
+  background-color: rgb(177, 135, 222);
+}
+#box6 {
+  background-color: rgb(135, 222, 173);
+}
+#box7 {
+  background-color: rgb(207, 93, 116);
+}
+#box8 {
+  background-color: rgb(113, 176, 123);
+}
+#box9 {
+  background-color: rgb(135, 160, 222);
+}
+#box10 {
+  background-color: rgb(135, 222, 187);
+}
+/* * For parent/ flex-container */
+/* 
+! 1> Flex-Direction
+Ye flexbox ke under ke items ki direction ko change kar deta ha.
+Usage:
+-> flex-direction: Defines the direction of the flexible items.
+-> row: Default value. Items are placed the same asthe text direction.
+-> row-reverse: Items are placed opposite to thetext direction.
+-> column: Items are placed top to bottom.
+-> column-reverse: Items are placed bottom to top.
+
+! 2> Flex-Wrap
+Ye flexbox ke under ke items ko wrap kar deta ha,
+jaise agar items ki width zyada ho to wrap kar dega.
+Usage:
+-> flex-wrap: Defines whether the flexible items should wrap or not.
+-> nowrap: Default value. Items are not wrapped.
+-> wrap: Items will wrap onto multiple lines, from top to bottom.
+-> wrap-reverse: Items will wrap onto multiple lines from bottom to top.
+
+! 3> Align Content
+Ye flexbox ke under ke items ko align kar deta ha.
+Usage: 
+-> align-content: Defines the alignment of the flexible container's items when the items do not use all available space on the cross-axis (vertically).
+-> stretch: Default value. Lines stretch to take up the remaining space.
+-> center: Lines are packed toward the center.
+-> flex-start: Lines are packed toward the start.
+-> flex-end: Lines are packed toward the end.
+-> space-between: Lines are evenly distributed; the first line is at the start and the last line is at the end.
+-> space-around: Lines are evenly distributed with equal space around each line.
+-> space-evenly: Lines are evenly distributed with equal space between them.
+
+! 4> ALign Items
+Align Item Center!
+The `align-items` CSS property sets the `align-self` value on all direct children as a group.
+In Flexbox, it controls the alignment of items on the Cross Axis.
+Usage:
+-> `stretch`: Items are stretched to fit the container.
+-> `center`: Items are centered in the container.
+-> `flex-start`: Items are aligned at the start of the container.
+-> `flex-end`: Items are aligned at the end of the container.
+-> `baseline`: Items are aligned such that their baselines align.
+ */
+/* * For child/ flex-item */
+/* 
+! 1> Order
+Ye flexbox ke under ke items ki order ko change kar deta ha.
+Usage:
+-> order: Specifies the order of a flexible item relative to the rest of the flex items inside the same container.
+-> Default value is 0.
+-> The lower the number, the earlier the item is displayed.
+-> The higher the number, the later the item is displayed.
+
+! 2> Flex-basis
+Ye flexbox ke under ke items ki width ko change kar deta ha.
+Usage:
+-> flex-basis: Specifies the initial length of a flexible item.
+-> Default value is auto.
+-> The length can be a length, a percentage, or auto.
+-> If the value is set to 0, the item will not grow.
+
+! 3> Flex-grow
+Ye flexbox ke under ke items ki width ko grow kar deta ha.
+Usage:
+-> flex-grow: Specifies how much a flex item will grow relative to the rest of the flex items.
+-> Default value is 0.
+-> If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children.
+-> If one of the children has a value of 2, the remaining space will take up twice as much space as the others (or it will try to, at least).
+
+! 4> Flex-shrink
+Ye flexbox ke under ke items ki width ko shrink kar deta ha.
+Usage:
+-> flex-shrink: Specifies how much a flex item will shrink relative to the rest of the flex items.
+-> Default value is 1.
+-> If the sum of all flex items' flex-shrink values is greater than 1, the negative free space is distributed according to the values.
+-> If the sum is less than 1, the items will shrink to fit according to the values.
+
+! 5> Align Self
+Align Self Center!
+The `align-self` CSS property overrides a grid or flex item's align-items value.
+Usage:
+-> `auto`: The element is positioned according to the normal flow of the document.
+-> `stretch`: The element is stretched to fill the container.
+-> `center`: The element is centered in the container.
+-> `flex-start`: The element is positioned at the beginning of the container.
+-> `flex-end`: The element is positioned at the end of the container.
+-> `baseline`: The element is positioned at the baseline of the container.
+
+
+*/
+
