@@ -1,0 +1,25 @@
+                <!-- <div class="skills-bg-container">
+                    <div class="skills-container">
+                        
+                    </div>
+                </div>
+                <div class="software-bg-container">
+                    <div class="software-container">
+
+                    </div>
+                </div> -->
+
+                            <div class="center-grid-div">
+                <div class="container-grid">
+                    <div class="dabba_1 box"></div>
+                    <div class="dabba_2 box"></div>
+                    <div class="dabba_3 box"></div>
+                    <div class="dabba_4 box"></div>
+                    <div class="dabba_5 box"></div>
+                    <div class="dabba_6 box"></div>
+                    <div class="dabba_7 box"></div>
+                    <div class="dabba_8 box"></div>
+                    <div class="dabba_9 box"></div>
+                    <div class="dabba_10 box"></div>
+                </div>
+            </div>

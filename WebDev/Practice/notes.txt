@@ -1,0 +1,2 @@
+Disply block jiss bhi element pe lagayenge, vo aapni poori width cover kar lega!!!
+Flex direction direction batata ha 
