@@ -1,1 +1,3 @@
 alt + F4 -> Close your application!!!
+
+You can also manually close your application!!!
