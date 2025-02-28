@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.childs {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(109, 108, 108);
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6,
+.box-7,
+.box-8,
+.box-9,
+.box-10 {
+    height: 100px;
+    width: 150px;
+
+
+}
+
+.box-1 {
+    background-color: #4B0082;
+    /* Dark purple */
+    border: 1px solid #6A0DAD;
+    /* Slightly lighter purple */
+}
+
+.box-2 {
+    background-color: #6A0DAD;
+    /* Slightly lighter purple */
+    border: 1px solid #7B1FA2;
+    /* Slightly lighter purple */
+}
+
+.box-3 {
+    background-color: #7B1FA2;
+    /* Slightly lighter purple */
+    border: 1px solid #8E24AA;
+    /* Slightly lighter purple */
+}
+
+.box-4 {
+    background-color: #8E24AA;
+    /* Slightly lighter purple */
+    border: 1px solid #9C27B0;
+    /* Slightly lighter purple */
+}
+
+.box-5 {
+    background-color: #9C27B0;
+    /* Slightly lighter purple */
+    border: 1px solid #AB47BC;
+    /* Slightly lighter purple */
+}
+
+.box-6 {
+    background-color: #AB47BC;
+    /* Slightly lighter purple */
+    border: 1px solid #BA68C8;
+    /* Slightly lighter purple */
+}
+
+.box-7 {
+    background-color: #BA68C8;
+    /* Slightly lighter purple */
+    border: 1px solid #CE93D8;
+    /* Slightly lighter purple */
+}
+
+.box-8 {
+    background-color: #CE93D8;
+    /* Slightly lighter purple */
+    border: 1px solid #E1BEE7;
+    /* Slightly lighter purple */
+}
+
+.box-9 {
+    background-color: #E1BEE7;
+    /* Slightly lighter purple */
+    border: 1px solid #F3E5F5;
+    /* Slightly lighter purple */
+}
+
+.box-10 {
+    background-color: #F3E5F5;
+    /* Light purple */
+    border: 1px solid #FFFFFF;
+    /* White */
+}
+
+/* Properties applies on parent folder */
+/* Here is a list of CSS flex properties that apply to the parent container (flex container)
+
+1. display: flex; or display: inline-flex;
+2. flex-direction (Done)
+3. flex-wrap
+4. flex-flow(Done)
+5. justify-content(Done)
+6. align-items
+7. align-content
+8. gap
+9. row-gap
+10. column-gap
+
+ */
+
+.parent-container {
+    display: flex;
+    /* box-sizing: border-box; */
+    height: 100vh;
+    width: 100vw;
+    /* * flex-direction */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+
+    /* * flex-wrap */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* * flex-flow */
+    /* flex-flow: column nowrap; */
+    /* flex-flow: column wrap; */
+    /* flex-flow: column wrap-reverse; */
+    /* flex-flow: row nowrap; */
+    /* flex-flow: row wrap; */
+    /* flex-flow: row wrap-reverse; */
+
+    /* * justify-content */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* * align-items */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+    
+    /* * align-content */
+    /* align-content: center; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: stretch; */
+
+    /* * gap */
+    /* gap: 10px; */
+
+    /* * row-gap */
+    /* row-gap: 10px; */
+
+    /* * column-gap */
+    /* column-gap: 10px; */
+}
